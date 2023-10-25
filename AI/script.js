@@ -68,7 +68,7 @@ function updateClothing(info) {
     headwearH4.innerHTML = "Woolen beanie";
     headwearImg.src = "./Clothes/Wolleen warm beanie cap.jpeg";
     topwearH4.innerHTML = "Jacket";
-    topwearImg.src = "./Clothes/Winter Jacket.jpeg";
+    topwearImg.src = "./Clothes/Jacket3.jpeg";
     bottomwearH4.innerHTML = "Thermal Lower";
     bottomwearImg.src = "./Clothes/Thermal lower.jpeg";
     footwearH4.innerHTML = "Woolen Shoes";
@@ -118,7 +118,7 @@ function updateClothing(info) {
     bottomwearImg.src = "./Clothes/Denim.jpeg";
     footwearH4.innerHTML = "Sneaker";
     footwearImg.src = "./Clothes/Sneaker.jpeg";
-  }else if (temperature >= 25 && temperature <= 40 && currentHour >= 00 && currentHour <= 12 && data.weather[0].main=="Clear") {
+  }else if (temperature >= 25 && temperature <= 40 && currentHour >= 0 && currentHour <= 12 && data.weather[0].main=="Clear") {
     headwearH4.innerHTML = "SunGlasses";
     headwearImg.src = "./Clothes/SunGlasses.jpg";
     topwearH4.innerHTML = "Fitted Top";
@@ -140,7 +140,7 @@ function updateClothing(info) {
     headwearH4.innerHTML = "Woolen beanie";
     headwearImg.src = "./Clothes/Wolleen warm beanie cap.jpeg";
     topwearH4.innerHTML = "Jacket";
-    topwearImg.src = "./Clothes/Winter Jacket.jpeg";
+    topwearImg.src = "./Clothes/Jacket3.jpeg";
     bottomwearH4.innerHTML = "Thermal Lower";
     bottomwearImg.src = "./Clothes/Thermal lower.jpeg";
     footwearH4.innerHTML = "Woolen Shoes";
@@ -208,7 +208,7 @@ function updateClothing(info) {
     bottomwearImg.src = "./Clothes/Leg Anklet.jpg";
     footwearH4.innerHTML = "Sandals";
     footwearImg.src = "./Clothes/Light Sandals.jpg";
-  }else if (currentHour >= 00 && currentHour <= 12 && data.weather[0].main=="Drizzle") {
+  }else if (currentHour >= 0 && currentHour <= 12 && data.weather[0].main=="Drizzle") {
     headwearH4.innerHTML = "Umbrella";
     headwearImg.src = "./Clothes/Umbrella.jpeg";
     topwearH4.innerHTML = "Sleeveless Top";
